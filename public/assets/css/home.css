@@ -1,0 +1,315 @@
+body{
+    min-width: 755px;
+    min-width: 755px;
+
+}
+.logo{
+    padding-left:5%;
+    height:50px;
+    width:76px;
+    display:block;
+    float: left;
+
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: "Segoe UI";
+
+}
+.container{
+    height:auto;
+    width:100%;
+    position: relative;
+
+}
+.header{
+    width:100%;
+    position:relative;
+    overflow: hidden;
+}
+.header.logo-img{
+    height:50px;
+    width:80px;
+}
+.search-box{
+    width:40%;
+}
+form{
+    float:left;
+}
+.menu{
+    width:40%;
+    margin-left:60%;
+}
+.menu a:link , .menu a:visited ,.menu a{
+    margin-left:20px;
+    font-size: 25px;
+}
+
+.searchbox{
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    color: #00668C;
+    transition: border 0.1s linear 0s;
+    float: left;
+}
+.submit{
+    margin-top:-28px;
+    margin-right:5px;
+}
+.tab{
+    float: left;
+    font-size:14pt;
+    padding-left: 10px;
+}
+.tab:hover{
+    color: #1f85ab;
+    cursor: pointer;
+}
+
+ul{
+    list-style:none;
+}
+
+
+
+
+/*Main Divs*/
+.sidebar-left{
+    height:auto;
+    padding:5px;
+    width:20%;
+    margin:5px 5px;
+    float:left;
+    min-width:222.2px;
+}
+.central-content{
+    float:left;
+    width:40%;
+    min-width:425px;
+}
+.right-bar{
+    margin-left:2%;
+    width:35%;
+    float: left;
+    overflow: hidden;
+    min-width:300.55px;
+}
+/* Sub Divs*/
+/*For central content*/
+.posts{
+    height:auto;
+    padding:2%;
+    background-color: #FFF;
+    width:98%;
+    border:1px solid #eee;
+    float: left;
+    margin-top: 5px;
+    min-width:416.5px;
+
+}
+.post-actions{
+    width:19.5%;
+    height:50px;
+    float: left;
+    text-align: left;
+    padding-left:13%;
+    font-size:200%;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.post-div{
+    height:auto;
+    padding:2%;
+    background-color: #FFF;
+    width:98%;
+    float: left;
+    border:1px solid #ddd;
+    border-radius:2px;
+    margin-top:5px;
+    min-width: 416.5px;
+    color: #00668c;
+
+}
+.post-div textarea{
+    width:98%;
+    height:80px;
+    resize:none;
+    color:#00668c;
+    margin-top:20px;
+    padding:1%;
+
+}
+/* For Right Side Bar*/
+.sidebar-right{
+    height:auto;
+    padding:1%;
+    background-color: #FFF;
+    width:45%;
+    float: left;
+    border:1px solid #eee;
+    margin-top:5px;
+    min-width: 170px;
+
+}
+.chat-div{
+    width:50%;
+    height:100%;
+    padding:0px;
+    background-color:white;
+    float:left;
+    margin:5px 0 0 5px;
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden;
+    min-width: 180px;
+}
+.chat-div div i{
+    margin-right:20px;
+    margin-top:15px;
+    float:right;
+    color:green;
+}
+.post-actions i:hover{
+    color:#359;
+}
+.icon{
+    position: absolute;
+    right:15px;
+    bottom:7px;
+}
+.full{
+    width:100%;
+}
+.no-padding{
+    padding:0;
+}
+.no-margin{
+    margin:0;
+}
+.down{
+    padding-top:10px;
+}
+.green{
+    color:green;
+}
+.small{
+    font-size: 10pt;
+    padding:0;
+    width:30%;
+}
+.medium{
+    font-size: 16pt;
+    padding:0;
+    width:100%;
+}
+.popup{
+    display: none;
+    width:50%;
+    margin-left:25%;
+    height:auto;
+    background-color: #FFF;
+    position:absolute;
+    top:65px;
+    border:1px solid #eee;
+    overflow: hidden;
+    padding:20px;
+    padding-right:20px;
+
+}
+.popup .subdivs{
+    width:100%;
+    border:1px solid #eee;
+    float:left;
+}
+
+input[type="file"]{
+    background: transparent;
+}
+
+.captions{
+    width:100%;
+    float:left;
+    text-align: center;
+}
+.cover{
+    padding:0;
+    width:100%;
+    float: left;
+    border-radius:2px;
+    margin-top:5px;
+    height:400px;
+    overflow: hidden;
+    background-color: #3a3a3a;
+}
+.profile-pic{
+    height:150px;
+    width:150px;
+    border:1px solid #cccccc;
+    background-color: white;
+    position:absolute;
+    top: 300px;
+    padding:0;
+    margin-left:10%;
+
+}
+.profile-pic img{
+    height:100%;
+    margin:0;
+    padding:0;
+
+}
+.cover img{
+    width:70%;
+    margin-left:15%;
+}
+.blocks{
+    height:100%;
+    width:auto;
+    margin-right:20px;
+}
+.img-thumbnail{
+    height:auto;
+    width:100px;
+    padding-right:10px;
+    float: left;
+    border: 1px solid #eee;
+}
+.nav-image{
+    height:30px;
+    float: left;
+    border:1px solid rgb(0, 75, 107);
+    border-radius:5px;
+    padding:5px;
+    padding-right:-10px;
+    margin-right:-10px;
+    position: relative;
+}
+.nav-image:hover{
+    background-color: rgb(0, 75, 107);
+    border:1px solid rgb(0, 50, 72);
+    color: white;
+}
+.nav-image img{
+    height:30px;
+    width:30px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    border-radius:2px;
+}
+
+.header .nav-image b a{
+    float: left;
+    margin-left: 35px;
+    font-size: 16px;
+    margin-top:5px;
+}
+
+.file,.locaion,.tag-friends,.feelings,.privacy{
+    display: none;
+}

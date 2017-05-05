@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script type="text/javascript">
+	 	$(document).ready(function() {
+	 		$("#signup-frm").submit(function(e){
+	 			e.preventDefault();
+			 	var first_name = $("#f_name").val().trim();
+			 	var last_name = $("#l_name").val();
+			 	var email = $("#reg_email").val();
+			 	var password = $("#reg_password").val();
+			 	var gender = $("#reg_gender").val();
+			 	var date = $("#reg_dob").val();
+			 	var valid = new validation();
+			 	if(first_name==''|| last_name==''|| email=='' || password==''|| gender==''|| date==""){
+			 		$('.error').slideDown(500);
+           			$('.error-msg').text(" ");
+            		$('.error-msg').text("Please correct your form data and try again!");
+			 	}
+
+	 		});
+
+
+	 	});
+
+	 </script>
+	 <style type="text/css">
+	 	.error{
+	 		display: none;
+	 	}
+	 </style>
+</head>
+<body>
+ <h2>Don't have an account? Here we help you make it up.</h2>
+            <form id="signup-frm" >
+            	<pre>
+               <label>
+               	FirstName:
+               </label> <input type="text" name="first_name" placeholder="First Name" id="f_name" class="small"/>
+                <label>
+               	LastName:
+               </label><input type="text" name="last_name" placeholder="Last Name" id="l_name" class="small" />
+                <label>
+               	Email:
+               </label><input type="email" name="email" placeholder="New Email" id="reg_email"/>
+                <label>
+               	Password:
+               </label><input type="password" name="password" placeholder="New Password" id="reg_password"/>
+                <label>
+               	Gender:
+               </label><select name="gender" id="reg_gender">
+                    <option value="0" selected>Select your gender.</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+                <label class="form-text">Your Birthday: <input type="date" name="date" id="reg_dob"> </span>
+                <div class="error">
+                    <div class="error-icon">
+                        <i class="fa fa-warning"></i>
+                    </div>
+                    <div class="error-msg">
+                    </div>
+                </div>
+                <button type="submit" value="Sign Up" class="pull-right">Go</button>
+                </pre>
+            </form>
+
+</body>
+</html>

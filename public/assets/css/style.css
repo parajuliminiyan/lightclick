@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    position: absolute;
+    height:50px;
+    width:100%;
+    background-color:#00668c;
+    border-bottom: 3px solid #00425b;
+    padding-top:10px;
+}
+.header a{
+    color:white;
+}
+.index_header{
+    height:50px;
+    width:100%;
+    background-color:#ccc;
+}
+body {
+    background: #e9ebee;
+    font-family: "Segoe UI";
+    color:#00668c;
+
+}
+.btn{
+    color:white;
+    padding:5px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.pagetop {
+    min-width: 920px;
+    max-width: 80%;
+    margin: 25px auto 0px auto;
+}
+
+.pagemiddle {
+    min-width: 920px;
+    max-width: 80%;
+    margin: 20px auto 0px auto;
+}
+
+.logo-box {
+    display: block;
+    background: url(../images/logo.fw.png);
+    width: 227px;
+    height: 59px;
+    float: left;
+}
+
+.links-panel {
+    display: block;
+    float: right;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: right;
+}
+
+.links-panel a {
+    padding: 0px 5px;
+}
+
+.links-panel a:first-child {
+    padding: 0px 5px 0px 0px;
+}
+
+.links-panel a:last-child {
+    padding: 0px 0px 0px 5px;
+}
+
+a {
+    color: #1F85AB;
+    transition: color 0.1s linear 0s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00668C;
+}
+.header a:hover{
+    color: #accbec;
+}
+a.critical {
+    color: #FF7272;
+    font-weight: 500;
+}
+
+a.critical:hover {
+    color: #EF6262;
+}
+
+
+.first-panel {
+    float: left;
+    width: 60%;
+}
+
+.second-panel {
+    float: right;
+    width: 30%;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.sm-text {
+    font-weight: 100;
+    font-size: 36px;
+    color: #00668C;
+}
+
+.img-fluids {
+    width: 100%;
+    display: inline-block;;
+}
+
+.banner-picture {
+    width: 97%;
+    margin: 25px 0px 25px 3%;
+}
+
+.bottom {
+    float: none;
+}
+
+.text-strong {
+    font-weight: 500;
+}
+
+.login-panel input, .signup-panel input, .signup-panel select {
+    margin-bottom: 5px;
+}
+
+.login-panel input:last-child,.signup-panel input:last-child,.signup-panel select:last-child {
+    margin-bottom: 0px;
+}
+
+input[type="text"], input[type="password"] , input[type="file"], input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    border: 1px solid #2086AB;
+    color: #00668C;
+    transition: border 0.1s linear 0s;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover  {
+    border-color: #00668C;
+}
+
+
+
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    border: 1px solid #2086AB;
+    color: #00668C;
+}
+
+button, input[type="submit"] {
+    border: none;
+    color: #F6F6F6;
+    font-family: "Segoe UI";
+    background: #1F85AB;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #2F95BB;
+}
+
+button:active, input[type="submit"]:active {
+    background: #00668C;
+}
+
+.login-panel h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #00668C;
+    font-size: 18px;
+}
+
+.signup-panel h2 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #00668C;
+    font-size: 18px;
+}
+
+.term-hint {
+    font-weight: 400;
+    margin-top: 15px;
+    color: #00668C;
+    font-size: 15px;
+}
+
+.signup-panel {
+    margin-top: 35px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.form-text {
+    padding-bottom: 8px;
+    font-size: 16px;
+    display: block;
+    color: #00668C;
+}
+form{
+    width:100%
+}
+.error{
+    height:auto;
+    width:100%;
+    background-color:#EF6262;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    padding:20px;
+    color:white;
+    font-size:25px;
+    float: right;
+    display: none;
+}
+.error .error-icon{
+    height:auto;
+    width:15%;
+    color:#EF6262;
+    position:relative;
+    top:0;
+    left:0;
+    font-size: 26pt;
+    float: left;
+}
+.error .error-msg{
+    width:84%;
+    height:auto;
+    vertical-align: middle;
+    float:left;
+    color:#EF6262;
+    font-weight:bold;
+}
+.footer{
+    margin-top:5px;
+    min-height: 100px;
+    width:100%;
+    background-color: #4a4a4a;
+    float: left;
+    position: relative;
+    bottom: 0;
+}
+.footer-left{
+    width:30%;
+    height:100px;
+    font-size: 12px;
+    color:white;
+    float: left;
+    padding:10px;
+}
+.footer-mid{
+    width:30%;
+    float: left;
+    color:white;
+    padding:10px;
+}
+.footer-left a{
+    color:white;
+}
+i,b,img{
+    cursor: pointer;
+}
+regtime{
+    display: none;
+}
+.post-details{
+    width:60%;
+    height:40px;
+    display: block;
+}
+/*.login-error{*/
+    /*!*display: none;*!*/
+    /*border: 1px solid red;*/
+    /*background-color: #f9b5af;*/
+    /*color: red;*/
+    /*height:50px;*/
+    /*margin-top:168px;*/
+    /*color:red;*/
+/*}*/
